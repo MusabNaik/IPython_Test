@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
+# In[1]:
 
 
 import matplotlib.pyplot as plt
@@ -12,7 +12,7 @@ import os
 
 
 folder ="C:\\Musab\\DSS_CODE\\different\\"
-file = '2_8_t7.csv'
+file = '2_9_t8.csv'
 file_data = pd.read_csv(folder+file)
 F = file_data['data']+file_data['noise']
 
@@ -156,25 +156,25 @@ for i in range(1,k+1):
 plt.show()
 
 
-# In[9]:
+# In[2]:
 
 
 k
 
 
-# In[10]:
+# In[3]:
 
 
 D.shape
 
 
-# In[11]:
+# In[6]:
 
 
 C
 
 
-# In[12]:
+# In[7]:
 
 
 D
@@ -186,7 +186,7 @@ D
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
-# In[3]:
+# In[5]:
 
 
 np.set_printoptions(precision=2,suppress=True)
